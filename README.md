@@ -61,3 +61,26 @@ suppliers_tb.address,suppliers_tb phone from products_tb,suppliers_tb WHERE prod
 
 *❖ Ubah data suppliers yang memiliki products “HP Omen 15” menjadi “Acer Nitro”.*
 * s
+
+# Jawaban Nomor 6
+### Index
+
+### Add Supplier
+
+### Add Product
+
+### Update
+
+# Jawaban No 7
+
+#### *CREATE*
+##### * Supplier
+##### * Product
+
+##### *Read*
+
+##### *Update*
+
+##### *Delete*
+
+
