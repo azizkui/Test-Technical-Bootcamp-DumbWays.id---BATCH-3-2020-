@@ -18,14 +18,16 @@ Jawaban Soal Test Bootcamp Dumbways batch 3 - 2020
 *❖ Tampilkan masing masing spesifikasi table spesifikasi*
 * DESC products_tb;
 * DESC suppliers_tb;  
-* Pict: https://github.com/azizkui/Test-Technical-Bootcamp-DumbWays.id---BATCH-3-2020-/issues/1#issue-546632392
+![1](https://user-images.githubusercontent.com/55979870/71950244-211f1100-3209-11ea-8aed-a144019ef3c6.png)
 
 *❖ Tambahkan 2 data suppliers_tb dengan nama “PT.Mejik”,”Jl
 Wonderland”,”086921692169”. “PT.Sera”,”Jl.Nusakambangan”,”082169216921”.*
 * INSERT INTO suppliers_tb VALUES ('3','PT.Mejik','Jl Wonderland','086921692169'),('4','PT.Sera','Jl.Nusakambangan','082169216921');
+![2](https://user-images.githubusercontent.com/55979870/71950434-ccc86100-3209-11ea-87c2-aee9a1c7fad6.png)
 
 *❖ Tampilkan seluruh data dari table supplier*
 * SELECT * FROM suppliers_tb;
+![3](https://user-images.githubusercontent.com/55979870/71950465-ed90b680-3209-11ea-998d-27863a655048.png)
 
 *❖ Tambahkan 3 data kedalam products_tb : “Lenovo Ideal Pad”,”3”. “Razer Blade
 Stealth”,”4”. “Lenovo Thinkpad T420”,”3”.*
