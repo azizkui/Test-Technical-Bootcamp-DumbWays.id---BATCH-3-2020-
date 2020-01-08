@@ -45,13 +45,19 @@ Stealth”,”4”. “Lenovo Thinkpad T420”,”3”.*
 
 *❖ Tampilkan seluruh product yang dimiliki oleh “PT.DumbWays”.*
 * SELECT * FROM products_tb WHERE supplier_id = '1';
+![6](https://user-images.githubusercontent.com/55979870/71951112-7b6da100-320c-11ea-80f1-4f53416eec58.png)
+
 
 *❖ Ubah data products yang memiliki dimiliki“PT.Mejik” dengan nama “Lenovo Ideal Pad” menjadi “Acer Swift”, “Lenovo Thinkpad T420” menjadi “MSI GL61”.*
 * UPDATE products_tb SET product_name='Acer Swift' WHERE id='5' , UPDATE products_tb SET product_name='MSI GL61' WHERE id='7';
+![7](https://user-images.githubusercontent.com/55979870/71951115-7b6da100-320c-11ea-9d18-4af4b539ab96.png)
+
 
 *❖ Gabungkan kedua table tersebut dengan ketentuan suppliers_tb berada di sebelah kanan dan products_tb berada di sebelah kiri.*
 * SELECT products_tb.id,products_tb.product_name,products_tb.supplier_id,suppliers_tb.id,suppliers_tb.company_name,
 suppliers_tb.address,suppliers_tb phone from products_tb,suppliers_tb WHERE products_tb.id=suppliers_tb.id;
+![8](https://user-images.githubusercontent.com/55979870/71951117-7c063780-320c-11ea-9443-329b6555825e.png)
+
 
 *❖ Ubah data suppliers yang memiliki products “HP Omen 15” menjadi “Acer Nitro”.*
 * s
