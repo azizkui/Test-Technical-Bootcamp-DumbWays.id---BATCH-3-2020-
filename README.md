@@ -18,7 +18,7 @@ Jawaban Soal Test Bootcamp Dumbways batch 3 - 2020
 *❖ Tampilkan masing masing spesifikasi table spesifikasi*
 * DESC products_tb;
 * DESC suppliers_tb;  
-* Pict: 
+* Pict: https://github.com/azizkui/Test-Technical-Bootcamp-DumbWays.id---BATCH-3-2020-/issues/1#issue-546632392
 
 *❖ Tambahkan 2 data suppliers_tb dengan nama “PT.Mejik”,”Jl
 Wonderland”,”086921692169”. “PT.Sera”,”Jl.Nusakambangan”,”082169216921”.*
