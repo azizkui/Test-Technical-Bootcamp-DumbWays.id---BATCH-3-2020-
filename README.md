@@ -10,5 +10,5 @@ Jawaban Soal Test Bootcamp Dumbways batch 3 - 2020
 # Jawaban Nomor 4
 
 # Jawaban Nomor 5 
-saya menjalankan dengan terminal
-semua kode sudah dicoba dan berhasil dijalankan
+* saya menjalankan dengan terminal
+* semua kode sudah dicoba dan berhasil dijalankan
