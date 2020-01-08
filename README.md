@@ -20,21 +20,28 @@ Jawaban Soal Test Bootcamp Dumbways batch 3 - 2020
 * DESC suppliers_tb;  
 ![1](https://user-images.githubusercontent.com/55979870/71950244-211f1100-3209-11ea-8aed-a144019ef3c6.png)
 
+
 *❖ Tambahkan 2 data suppliers_tb dengan nama “PT.Mejik”,”Jl
 Wonderland”,”086921692169”. “PT.Sera”,”Jl.Nusakambangan”,”082169216921”.*
 * INSERT INTO suppliers_tb VALUES ('3','PT.Mejik','Jl Wonderland','086921692169'),('4','PT.Sera','Jl.Nusakambangan','082169216921');
 ![2](https://user-images.githubusercontent.com/55979870/71950434-ccc86100-3209-11ea-87c2-aee9a1c7fad6.png)
 
+
 *❖ Tampilkan seluruh data dari table supplier*
 * SELECT * FROM suppliers_tb;
 ![3](https://user-images.githubusercontent.com/55979870/71950465-ed90b680-3209-11ea-998d-27863a655048.png)
 
+
 *❖ Tambahkan 3 data kedalam products_tb : “Lenovo Ideal Pad”,”3”. “Razer Blade
 Stealth”,”4”. “Lenovo Thinkpad T420”,”3”.*
 * INSERT INTO products_tb VALUES ('5','Lenovo Ideal Pad','3'),('6','Razer Blade Stealth','4'),('7','Lenovo Thinkpad t420','3');
+![4](https://user-images.githubusercontent.com/55979870/71950900-870c9800-320b-11ea-8c9f-6529379cc928.png)
+
 
 *❖ Tampilkan seluruh data pada products_tb.*
 * SELECT * FROM products_tb;
+![4   5](https://user-images.githubusercontent.com/55979870/71950901-870c9800-320b-11ea-869d-c807e2c08c22.png)
+
 
 *❖ Tampilkan seluruh product yang dimiliki oleh “PT.DumbWays”.*
 * SELECT * FROM products_tb WHERE supplier_id = '1';
